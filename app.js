@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema({
 });
 
 
-console.log(md5(1234));
+
 
 
 const User = new mongoose.model("User", userSchema);
